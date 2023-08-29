@@ -1,0 +1,13 @@
+install dkms and linux-headers packages
+install nvidia-dkms package
+enable multilib repo
+install "lib32-nvidia-utils" package
+nvidia_drm.modeset=1 kernel parameter
+nvidia nvidia_modeset nvidia_uvm nvidia_drm initramfs modules
+remove kms from HOOKS array in /etc/mkinitcpio.conf
+pacman hook to update initramfs after NVIDIA driver upgrades
+then regenerate the initramfs
+	mkinitcpio -P
+reboot
+
+==> Wayland

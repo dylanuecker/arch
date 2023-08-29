@@ -1,0 +1,29 @@
+Backup data on machine
+Update BIOS
+	Enable XMP
+	Disable secure boot
+Installation media -- download arch iso, verify signature and checksums, cat to usb
+Uninstall windows key (if so)
+Clean computer, specifically DUSTING
+
+==> Follow the arch wiki (notes below for the initial steps)
+
+I have been doing 3 partitions:
+
+(1) EFI 512M
+(2) Swap 2G
+(3) Root therest
+
+Make sure to change partition types and format each with file systems (or mkswap)
+ext4 for root, fat32 for EFI
+
+mount root partition /, efi to /boot
+swapon
+
+install base linux linux-firmware packages
+** ALSO install: (g)vim networkmanager man-db man-pages textinfo
+
+fstab, chroot, timezone, locales, hostname, network config (maybe), set root password
+bootloader -- systemd-boot, make sure to turn update service on, loader.conf, updated and fallback loaders, EFI shell, microcode!
+
+==> Now for the fun part
