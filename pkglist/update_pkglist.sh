@@ -6,7 +6,7 @@ else
 	filename=pc-pkglist
 fi
 
-cd /home/dylan/.maintenance
+cd /home/dylan/pkglist/.arch
 pacman -Qqe > $filename
 if [[ 'git status --porcelain $filename' ]]; then
 	git add $filename
