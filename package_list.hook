@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Remove
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Updating list of installed packages in dotfiles repo
+When = PostTransaction
+Exec = /bin/sh -c 'sudo -u dylan -i .maintenance/update_pkglist.sh'
