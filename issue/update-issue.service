@@ -1,0 +1,8 @@
+[Unit]
+Description=Generate new /etc/issue (login message)
+
+[Service]
+ExecStart=/home/dylan/arch/issue/update_issue.sh
+
+[Install]
+WantedBy=default.target
