@@ -1,4 +1,4 @@
-# dotfiles
+# arch linux
 
 Important system maintenance:
 - 'pacman -Syu' for system update and upgrade
