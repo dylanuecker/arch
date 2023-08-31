@@ -16,6 +16,7 @@ linux-headers
 man-db
 man-pages
 networkmanager
+nm-connection-editor
 ntfs-3g
 nvidia-dkms
 openssh
