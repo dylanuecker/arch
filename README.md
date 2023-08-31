@@ -7,7 +7,3 @@ Important system maintenance:
 
 Finally using nvidia drivers with PRIME for hybrid graphics. Use the two scripts
 in here to enable and disable the GTX 1050 ti mobile.
-
-Remember to:
-- symlink the package list hook
-- symlink the issue unit and enable it
