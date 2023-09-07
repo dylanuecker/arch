@@ -13,6 +13,7 @@ lib32-nvidia-utils
 linux
 linux-firmware
 linux-headers
+mako
 man-db
 man-pages
 networkmanager
