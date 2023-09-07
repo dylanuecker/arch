@@ -24,6 +24,7 @@ pacman-contrib
 pavucontrol
 pipewire-alsa
 pipewire-pulse
+playerctl
 progress
 reflector
 stow
