@@ -25,6 +25,7 @@ pavucontrol
 pipewire-alsa
 pipewire-pulse
 playerctl
+polkit-kde-agent
 progress
 reflector
 stow
