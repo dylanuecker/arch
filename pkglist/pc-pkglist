@@ -1,6 +1,7 @@
 alacritty
 amd-ucode
 base
+btop
 discord
 dkms
 edk2-shell
@@ -9,6 +10,7 @@ fortune-mod
 git
 gvim
 hashdeep
+htop
 hyprland
 hyprpaper
 lib32-nvidia-utils
