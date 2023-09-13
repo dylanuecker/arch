@@ -39,6 +39,7 @@ stow
 sudo
 swaylock
 texinfo
+ttf-nerd-fonts-symbols-mono
 ufw
 unzip
 waybar
