@@ -9,7 +9,6 @@ edk2-shell
 firefox
 fortune-mod
 git
-go
 gvim
 hashdeep
 htop
@@ -49,4 +48,5 @@ unzip
 waybar
 wl-clipboard
 xdg-desktop-portal-hyprland
+yay
 zsh
