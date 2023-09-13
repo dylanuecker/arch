@@ -22,9 +22,7 @@ linux-headers
 mako
 man-db
 man-pages
-meson
 networkmanager
-ninja
 nm-connection-editor
 ntfs-3g
 nvidia-dkms
@@ -37,10 +35,10 @@ playerctl
 polkit-kde-agent
 progress
 reflector
-scdoc
 spotify-launcher
 stow
 sudo
+swaylock-effects
 texinfo
 ttf-jetbrains-mono
 ttf-nerd-fonts-symbols-mono
