@@ -28,6 +28,7 @@ ntfs-3g
 nvidia-dkms
 openssh
 pacman-contrib
+paru
 pavucontrol
 pipewire-alsa
 pipewire-pulse
