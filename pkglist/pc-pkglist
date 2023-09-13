@@ -28,7 +28,6 @@ ntfs-3g
 nvidia-dkms
 openssh
 pacman-contrib
-paru
 pavucontrol
 pipewire-alsa
 pipewire-pulse
@@ -48,5 +47,4 @@ unzip
 waybar
 wl-clipboard
 xdg-desktop-portal-hyprland
-yay
 zsh
