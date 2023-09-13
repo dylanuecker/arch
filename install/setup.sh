@@ -34,10 +34,6 @@ systemctl enable --now fstrim.timer
 systemctl enable --now systemd-timesyncd.service
 timedatectl set-ntp true 
 
-pacman -Syu \
-	ttf-jetbrains-mono \
-	ttf-nerd-fonts-symbols-mono \
-
 useradd -m -G wheel -s /usr/bin/zsh dylan
 passwd dylan
 
