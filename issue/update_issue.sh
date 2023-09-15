@@ -23,6 +23,6 @@ echo -n \
 
 $(printf "%0.s-" $(seq $max_line_len))
 
-\e{blue}got job?\e{reset}
+\e{lightblue}got job?\e{reset}
 
 " > /etc/issue.d/fortune.issue
