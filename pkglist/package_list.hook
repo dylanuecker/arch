@@ -6,6 +6,6 @@ Type = Package
 Target = *
 
 [Action]
-Description = Updating list of installed packages in dotfiles repo
+Description = Refresh arch and dotfiles repos
 When = PostTransaction
-Exec = /bin/sh -c 'sudo -u dylan -i arch/pkglist/update_pkglist.sh'
+Exec = /bin/sh -c 'sudo -u dylan -i arch/pkglist/update_pkglist.sh hook'
