@@ -15,7 +15,7 @@ git_refresh () {
 	fi
 }
 
-cd /home/dylan/arch/pkglist
+cd /home/dylan/arch/pacman
 
 # on a timer
 if [[ $1 == "timer" ]]; then
