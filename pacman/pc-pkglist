@@ -11,7 +11,6 @@ firefox
 fortune-mod
 git
 grim
-gvim
 hashdeep
 hyprland
 hyprpaper
@@ -35,7 +34,7 @@ pavucontrol
 pipewire-alsa
 pipewire-pulse
 playerctl
-polkit-kde-agent
+polkit-gnome
 progress
 python-requests
 reflector
@@ -48,6 +47,7 @@ ttf-jetbrains-mono
 ttf-nerd-fonts-symbols-mono
 ufw
 unzip
+vim
 waybar
 wl-clipboard
 xdg-desktop-portal-hyprland
