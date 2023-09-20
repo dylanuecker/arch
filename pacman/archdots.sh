@@ -1,33 +1,32 @@
-#!/bin/bash
+#!/bin/sh
+{
+	echo -e "$(date)\n"
 
-git_refresh () {
-	if [[ 'git rev-list --count origin..HEAD' ]]; then
-		git stash
-		git pull --no-ff
-		git push
-		git stash pop
+	if [[ "$HOSTNAME" == "cloudbreak" ]]; then
+		filename=laptop-pkglist
+	else
+		filename=pc-pkglist
 	fi
-}
 
-if [[ "$HOSTNAME" == "cloudbreak" ]]; then
-	filename=laptop-pkglist
-else
-	filename=pc-pkglist
-fi
+	cd /home/dylan/arch/pacman
+	git stash
+	git pull --no-ff --no-edit
+	pacman -Qqe > $filename
+	if [[ -n $(git status --porcelain $filename) ]]; then
+		git add $filename
+		git commit -m "Update $filename"
+	fi
+	git push
+	git stash pop
 
-cd /home/dylan/arch/pacman
+	#git rev-list --count origin..HEAD
+	#check if there are any local commits
 
-pacman -Qqe > $filename
-if [[ 'git status --porcelain $filename' ]]; then
-	git add $filename
-	git commit -m "Update $filename"
-fi
+	cd ../../dotfiles
+	git stash
+	git pull --no-ff --no-edit
+	git push
+	git stash pop
 
-git_refresh
-<<<<<<< Updated upstream
-#cd ../../dotfiles
-#git_refresh
-=======
-cd ../../dotfiles
-git_refresh
->>>>>>> Stashed changes
+	echo -e "\n-------------------------------------------------------------------------------\n"
+} &>> /home/dylan/arch/pacman/archdots.log
