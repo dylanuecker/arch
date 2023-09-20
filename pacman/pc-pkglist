@@ -49,6 +49,7 @@ unzip
 vim
 waybar
 wl-clipboard
+x11-ssh-askpass
 xdg-desktop-portal-hyprland
 yay
 zsh
