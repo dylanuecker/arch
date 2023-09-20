@@ -35,7 +35,6 @@ pipewire-alsa
 pipewire-pulse
 playerctl
 polkit-gnome
-progress
 python-requests
 reflector
 spotify-launcher
