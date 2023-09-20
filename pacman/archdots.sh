@@ -24,5 +24,10 @@ if [[ 'git status --porcelain $filename' ]]; then
 fi
 
 git_refresh
+<<<<<<< Updated upstream
 #cd ../../dotfiles
 #git_refresh
+=======
+cd ../../dotfiles
+git_refresh
+>>>>>>> Stashed changes
