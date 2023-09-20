@@ -1,0 +1,5 @@
+[Unit]
+Description=Backup package list and refresh arch/dotfiles repos
+
+[Service]
+ExecStart=/home/dylan/arch/pacman/archdots.sh
