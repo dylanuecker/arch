@@ -1,4 +1,0 @@
-- wrapping around when using [ and ]
-- relative paths
-- mako notification on play, pause, skip, etc. also show whats playing when volume changes
-- faster lockscreen blurring, smaller pkg than imagemagick to do the blurring
