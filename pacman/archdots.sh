@@ -1,4 +1,15 @@
 #!/bin/sh
+
+# wait for gui
+while [ -z $WAYLAND_DISPLAY ]; do
+	sleep 10
+done
+
+# wait for network
+while ! ping -c 1 -W 10 "www.google.com" >& /dev/null; do
+	sleep 10
+done
+
 {
 	echo -e "$(date)\n"
 
