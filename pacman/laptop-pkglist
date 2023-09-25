@@ -1,7 +1,6 @@
 alacritty
 base
-bash-completion
-bluez
+blueman
 bluez-utils
 brightnessctl
 btop
