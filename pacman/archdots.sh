@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# wait for screen to unlock
+while [ -f /tmp/screenislocked ]; do
+	sleep 100
+done
+
 # wait for gui
 while [ -z $WAYLAND_DISPLAY ]; do
 	sleep 10
