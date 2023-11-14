@@ -23,6 +23,6 @@ echo -n \
 
 $(printf "%0.s-" $(seq $max_line_len))
 
-\e{lightblue}got job?\e{reset}
+\e{lightblue}this too shall pass\nwon't be the last\e{reset}
 
 " > /etc/issue.d/fortune.issue
