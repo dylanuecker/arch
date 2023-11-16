@@ -23,6 +23,6 @@ echo -n \
 
 $(printf "%0.s-" $(seq $max_line_len))
 
-\e{lightblue}this too shall pass\nwon't be the last\e{reset}
+\e{lightblue}This too shall pass.\e{reset}
 
 " > /etc/issue.d/fortune.issue
