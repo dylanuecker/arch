@@ -1,0 +1,5 @@
+* Package lists to google drive (change archdots)
+* Mount google drive -- rclone
+	* Or, use an alternative cloud storage platform?
+* Fix install scripts
+* Make this repo public
