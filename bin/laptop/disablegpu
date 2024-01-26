@@ -22,6 +22,7 @@ sleep 1
 if [ -f /etc/modprobe.d/disable-nvidia.conf.disable ]; then
 	mv /etc/modprobe.d/disable-nvidia.conf.disable /etc/modprobe.d/disable-nvidia.conf
 	printf "\nNVIDIA CARD IS NOW DISABLED.\n"
+	pkill -RTMIN+2 waybar
 else
 	printf "\nFile /etc/modprobe.d/disable-nvidia.conf.disable does not exist.\n"
 	printf "Is the GPU already disabled ?\n"

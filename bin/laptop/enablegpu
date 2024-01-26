@@ -29,3 +29,4 @@ if [ -x "$(command -v nvidia-smi)" ]; then
 	nvidia-smi
 fi
 printf "\nNVIDIA CARD IS NOW ENABLED.\n"
+pkill -RTMIN+2 waybar
