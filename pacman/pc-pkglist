@@ -11,12 +11,15 @@ edk2-shell
 ffmpeg4.4
 firefox
 fortune-mod
+gamescope
 git
 grim
 hashdeep
 hyprland
+hyprlock
 hyprpaper
 imagemagick
+iw
 lf
 lib32-nvidia-utils
 libnotify
@@ -26,6 +29,7 @@ linux-headers
 mako
 man-db
 man-pages
+net-tools
 networkmanager
 nm-connection-editor
 ntfs-3g
@@ -40,9 +44,9 @@ polkit-gnome
 python-requests
 reflector
 spotify-launcher
+steam
 stow
 sudo
-swaylock
 texinfo
 ttf-jetbrains-mono
 ttf-nerd-fonts-symbols-mono
@@ -50,6 +54,7 @@ ufw
 unzip
 vim
 waybar
+wireless_tools
 wl-clipboard
 x11-ssh-askpass
 xdg-desktop-portal-hyprland
